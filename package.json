@@ -1,0 +1,17 @@
+{
+  "name": "bulk_emails",
+  "version": "1.0.0",
+  "description": "",
+  "main": "send_mail.js",
+  
+  "scripts": {
+    "start": "node send_mail.js"
+  },
+  "author": "TechDevs",
+  "license": "ISC",
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "dotenv": "^16.4.5",
+    "nodemailer": "^6.9.15"
+  }
+}
